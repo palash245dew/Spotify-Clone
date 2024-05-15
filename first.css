@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #099239;
+}
+div.nav {
+    background-color: black;
+    height: 70px;
+    margin: 10px;
+    color: #099239;
+
+}
+.brand img{
+    width: 70px;
+    padding: 0 8px;
+}
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.3rem;
+}
+.home {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    font-size: 1.9rem;
+}
+.ts {
+    margin-top: 50px;
+    height: 150px;
+    width: 50%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-image: url(bg1.jpg);
+}
+.ts a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+.ts a:hover{
+    color: rgb(104, 79, 57);
+    font-size: 1.4rem;
+}
+.tw {
+    margin-top: 50px;
+    height: 150px;
+    width: 50%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-image: url(bg4.jpg);
+    margin-left: 600px;
+}
+.tw a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+.tw a:hover{
+    color: sandybrown;
+    font-size: 1.6rem;
+}
+.bottom {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: right;
+}
+.backvideo {
+    position: fixed;
+    
+    right: 0;
+    bottom: 0;
+    z-index: -5;
+
+}
+@media(max-aspect-ratio: 16/9){
+    .backvideo{
+        width: auto;
+        height: auto;
+    }
+} 
